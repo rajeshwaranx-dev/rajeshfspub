@@ -46,7 +46,7 @@ DB_NAME = os.environ.get("DB_NAME", "bharath")
 # Set the number of worker threads for the bot. To avoid sleeping issues and improve performance, keep it above 50 (recommended).
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
 # Message displayed to users when they click the Start button or send the /start command.
-START_MSG = os.environ.get("START_MESSAGE", "⚠️ This is a File Store Bot\n\nYou cannot search movies here.\n\n🎬 To download movies, go to our channel and check the channel Links.\n\n📢 Channel: https://t.me/Askmovies4")
+START_MSG = os.environ.get("START_MESSAGE", "⚠️ This is a File Store Bot\n\nYou cannot search movies here.\n\n🎬 To download movies, go to our channel and check the channel Links.\n\n📢 Channel: https://t.me/indian_tha")
 USER_REPLY_TEXT = os.environ.get(
     "USER_REPLY_TEXT",
     "⚠️ This is a File Store Bot\n\n"
