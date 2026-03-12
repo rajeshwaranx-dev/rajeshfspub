@@ -52,7 +52,7 @@ USER_REPLY_TEXT = os.environ.get(
     "⚠️ This is a File Store Bot\n\n"
     "You cannot search movies here.\n\n"
     "🎬 To download movies, go to our channel and check the channel Links.\n\n"
-    "📢 Channel: https://t.me/Askmovies4"
+    "📢 Channel: https://t.me/indian_tha"
 )
 # Enter your Telegram username (without @). A public username is required to use this bot.
 OWNER_TAG = os.environ.get("OWNER_TAG", "Master_xkid")
