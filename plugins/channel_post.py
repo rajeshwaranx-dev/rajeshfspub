@@ -68,7 +68,7 @@ async def new_post(client: Client, message: Message):
     if not is_media(message):
         return
 
-    await asyncio.sleep(4)
+    await asyncio.sleep(6)
 
     fs_param = "fs_" + base64.b64encode(str(message.id).encode()).decode()
     link = f"https://t.me/{client.username}?start={fs_param}"
